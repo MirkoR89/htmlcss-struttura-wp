@@ -3,3 +3,67 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/761546561938784260/765549206365798410/natural-default-pattern.png");
+}
+
+.container_bg {
+  height: 250px;
+  width: 80%;
+  border: 10px solid white;
+  margin: auto;
+  margin-top: 30px;
+  background-color: red;
+}
+
+nav {
+  height: 50px;
+  width: 80%;
+  margin: auto;
+  background-color: green;
+  text-align: center;
+}
+
+ main {
+  height: 250px;
+  width: 80%;
+  margin: auto;
+}
+
+.box {
+  height: 200px;
+  width: 20%;
+  padding: 15px;
+}
+
+#width {
+  width: 60%
+}
+
+.float_left {
+  background: orange;
+  float: left;
+}
+
+.float_center {
+  background: lightblue;
+  float: left;
+}
+
+.float_right {
+  float: left;
+}
+
+.box_R {
+  width: 100%;
+  height: 100%;
+  background: purple;
+}
+
+ul > li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px;
+
+}
